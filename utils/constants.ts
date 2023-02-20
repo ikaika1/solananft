@@ -12,7 +12,7 @@ export const LOOTBOX_PROGRAM_ID = new PublicKey(
   process.env.NEXT_PUBLIC_LOOTBOX_PROGRAM_ID ?? ""
 )
 
-const gearOptions = JSON.parse(process.env.NEXT_PUBLIC_GEAR_OPTIONS ?? "") as [
+/*const gearOptions = JSON.parse(process.env.NEXT_PUBLIC_GEAR_OPTIONS ?? "") as [
   string
 ]
-export const GEAR_OPTIONS = gearOptions.map((x) => new PublicKey(x))
+export const GEAR_OPTIONS = gearOptions.map((x) => new PublicKey(x))*/
